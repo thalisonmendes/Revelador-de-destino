@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+img {
+    width: 200px;
+
+}
+
+.principal {
+    margin-top: 40px;
+    width: 80%;
+    max-width: 400px;
+    margin-inline: auto;
+}
+
+.principal-titulo {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.principal-paragrafo {
+    margin-bottom: 20px;
+    opacity: 0.7;
+}
+
+input {
+    width: 335px;
+    height: 55px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+button {
+    height: 60px;
+    padding: 20px;
+    border-radius: 4px ;
+    width: 343px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    transition: filter (0.2s);
+    
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+    
+}
+
+.btn-caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resultado{
+    margin-top: 30px;
+}
+
+#pergu-{
+    margin-top: 13px;
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+}
